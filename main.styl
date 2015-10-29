@@ -1,0 +1,236 @@
+// @require './furniture.styl'
+// @require './songs.styl'
+// @require './fish.styl'
+// @require './funniest.styl'
+
+body
+  color #333333
+  
+  text-rendering optimizeLegibility
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  -webkit-font-variant-ligatures common-ligatures
+  font-variant-ligatures common-ligatures
+  -moz-font-feature-settings "kern=1"
+  -webkit-font-feature-settings "kern"
+  -moz-font-feature-settings "kern"
+  font-feature-settings "kern"
+  font-kerning normal  
+
+a
+  color #333333
+  text-transform uppercase
+  font-weight bold
+  font-size 12px
+  text-decoration none
+  
+p
+  font-family GaramondPremrPro-MedCapt, serif
+  
+h1, h2, h3, h4, h5, h6
+  font-weight normal
+
+nav
+  position fixed
+  top 30px
+  right 30px
+  z-index 10
+  
+  :hover
+    opacity .75
+
+section
+  width 100%
+  height 775px
+  display inline-block !important
+  box-sizing border-box
+  position relative
+  
+  .content
+    max-width 500px
+    margin 0 auto
+    position relative
+    top 50%
+    transform translateY(-50%)
+    text-align center
+    display block
+    
+  .source
+    position absolute
+    bottom 20px
+    left 49%
+    opacity .25
+    
+  :hover
+    opacity 1
+
+// font styling
+    
+@font-face
+  font-family Bebas
+  src url('/fonts/Bebas.ttf')
+  
+@font-face
+  font-family AvantGarGotDemCon
+  src url('/fonts/AvantGarGotDemCon.otf')  
+  
+@font-face
+  font-family AvantGarGotItcTBol
+  src url('/fonts/AvantGarGotItcTBol.otf')  
+  
+@font-face
+  font-family AvantGarGotItcTBolObl
+  src url('/fonts/AvantGarGotItcTBolObl.otf')  
+  
+@font-face
+  font-family AvantGarGotItcTDem
+  src url('/fonts/AvantGarGotItcTDem.otf')     
+  
+@font-face
+  font-family AvantGarGotItcTDemObl
+  src url('/fonts/AvantGarGotItcTDemObl.otf')
+  
+@font-face
+  font-family HerrVonMuellerhoff
+  src url('/fonts/HerrVonMuellerhoff-Regular.ttf')  
+  
+@font-face
+  font-family KronaOne
+  src url('/fonts/KronaOne-Regular.ttf')  
+  
+@font-face
+  font-family GaramondPremrPro-MedItCapt
+  src url('/fonts/GaramondPremrPro-MedItCapt.otf')  
+  
+@font-face
+  font-family GaramondPremrPro-MedCapt
+  src url('/fonts/GaramondPremrPro-MedCapt.otf')       
+  
+@font-face
+  font-family Sacramento-Regular
+  src url('/fonts/Sacramento-Regular.ttf')
+
+// type styling
+
+section.furniture
+  background-color #DDB660
+  text-transform uppercase
+  div
+    h1
+      font-family Sacramento-Regular, cursive
+      text-transform none
+      font-size 95px
+      line-height 0px
+      position relative
+      top -50px    
+    h2, h3
+      font-family AvantGarGotItcTBol, sans-serif
+      letter-spacing 2px
+    h2
+      font-size 40px
+      letter-spacing 6px
+    :nth-child(2)
+      font-size 34px
+      position relative
+      top -20px
+    :nth-child(4)
+      font-size 26px
+      line-height 30px
+      position relative
+      top -50px
+    :nth-child(5)
+      position relative
+      top -66px
+
+section.songs
+  background-color #ECE1C6
+  div
+    p
+      font-variant small-caps
+      letter-spacing 1px  
+      font-size 16px
+    h1
+      font-family Bebas, sans-serif 
+      letter-spacing 2px
+    h2
+      font-family AvantGarGotItcTBol, sans-serif
+      text-transform uppercase
+      letter-spacing 2px
+    h3
+      font-family KronaOne, sans-serif
+      text-transform uppercase
+      letter-spacing 6px
+      font-size 16px
+    h4
+      font-family AvantGarGotItcTBolObl, sans-serif
+      text-transform uppercase
+      letter-spacing 2px
+      font-size 12px
+      line-height 28px
+  
+section.fish
+  background-color #80A89C
+  text-transform uppercase
+  div
+    :first-child
+      position relative
+      top 50%
+    :nth-child(4)
+      position relative
+      left 80px
+      top -80px
+      line-height 20px
+    :nth-child(5),:nth-child(6)
+      position relative
+      top 20px
+    h1
+      font-family AvantGarGotItcTBol, sans-serif
+      font-size 50px
+      letter-spacing 4px
+      line-height 0px
+      padding-top 80px
+      position relative
+      left -90px
+    h2
+      font-family AvantGarGotItcTDem, sans-serif    
+      font-size 14px
+      letter-spacing 5px
+    h2:last-of-type
+      letter-spacing 4px
+      line-height 20px
+      position relative
+      top -30px
+    h3
+      font-family KronaOne, sans-serif
+      font-size 12px
+      letter-spacing 4px
+      line-height 0px
+      position relative
+      top 0px
+      left -90px
+
+section.funniest
+  background-color #D42C2C
+  text-transform uppercase
+  div
+    h1
+      font-family Bebas, sans-serif 
+      font-size 34px
+      letter-spacing 3px
+    h2
+      font-family AvantGarGotItcTDem, sans-serif
+      letter-spacing 1px
+      line-height 10px
+    h3
+      font-family AvantGarGotItcTBol, sans-serif
+      font-size 24px
+    h4
+      font-family HerrVonMuellerhoff-Regular, sans-serif
+      text-transform none
+      font-size 46px
+      line-height 0px
+      position relative
+      top -20px    
+    :nth-child(8)
+      position relative
+      top -50px
