@@ -1,0 +1,111 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "kern=1";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  color: #333;
+}
+body p {
+  font-family: "Cardo", serif;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin: 0px;
+  font-weight: normal;
+}
+body h1 {
+  font-size: 56px;
+}
+body h2 {
+  font-size: 46px;
+}
+body h3 {
+  font-size: 36px;
+}
+body h4 {
+  font-size: 26px;
+}
+body h5 {
+  font-size: 16px;
+}
+body h6 {
+  font-size: 12px;
+}
+section.furniture {
+  background-color: #ddb660;
+}
+section.furniture h1,
+section.furniture h2 {
+  font-family: "AvantGardeGothicITCW01Bd", sans-serif;
+}
+section.songs {
+  background-color: #ece1c6;
+}
+section.fish {
+  background-color: #80a89c;
+}
+section.kernel {
+  background-color: #d42c2c;
+}
+body {
+  background-color: #333;
+}
+body nav .infolink {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  right: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  opacity: 0.25;
+}
+body nav .infolink:hover {
+  opacity: 1;
+}
+section {
+  width: 100%;
+  height: 775px;
+  display: inline-block !important;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}
+section .content {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  display: block;
+}
+section a.src:hover .srcimg {
+  visibility: visible;
+}
+section a.src:hover {
+  opacity: 1;
+}
+section .srcimg {
+  visibility: hidden;
+  position: absolute;
+  bottom: 50px;
+  left: -110px;
+  z-index: 1;
+}
+section .src {
+  position: absolute;
+  bottom: 20px;
+  left: 49%;
+  opacity: 0.25;
+  z-index: 1;
+}

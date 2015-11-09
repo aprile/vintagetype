@@ -1,0 +1,85 @@
+@require 'variables.styl'
+@require 'fonts.styl'
+
+@require 'furniture.styl'
+@require 'songs.styl'
+@require 'fish.styl'
+@require 'kernel.styl'
+
+body
+  background-color $gray
+  
+  nav
+    .infolink
+      position fixed
+      z-index 2
+      top 0px
+      right 0px
+      padding-top 20px
+      padding-right 20px    
+      opacity .25
+    
+    .infolink:hover
+      opacity 1  
+      
+
+// nav  
+//   z-index 20
+  
+//   a.infolink:hover .info
+//     visibility visible
+
+//   .infolink
+//     position fixed
+//     z-index 2
+//     top 0px
+//     right 0px
+//     padding-top 20px
+//     padding-right 20px
+    
+//     .info
+//       visibility hidden
+//       position fixed
+//       top 0px
+//       right 0px
+//       color $white
+//       max-width 400px
+//       height 400px
+//       background-color $gray
+//       padding 30px
+
+section
+  width 100%
+  height 775px
+  display inline-block !important
+  box-sizing border-box
+  position relative
+  z-index 0
+  
+  .content
+    max-width 500px
+    margin 0 auto
+    position relative
+    top 50%
+    transform translateY(-50%)
+    text-align center
+    display block
+    
+  a.src:hover .srcimg
+    visibility visible
+  a.src:hover
+    opacity 1
+      
+  .srcimg
+    visibility hidden
+    position absolute
+    bottom 50px
+    left -110px
+    z-index 1
+  .src
+    position absolute
+    bottom 20px
+    left 49%
+    opacity .25
+    z-index 1
+  

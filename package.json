@@ -9,6 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
+    "watch": "npm run watch:stylus & npm run watch:jade",
+    "watch:stylus": "stylus --watch ./styles/* -o ./static/css",
+    "watch:jade": "jade --watch ./templates/pages/* -o ./static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
