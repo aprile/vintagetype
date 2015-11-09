@@ -1,0 +1,39 @@
+section.songs {
+  background-color: $cream;
+  text-transform: uppercase;
+}
+section.songs h2 {
+  font-family: $font-oswald;
+  line-height: 50px;
+}
+section.songs h4 {
+  font-weight: 900;
+  letter-spacing: 4px;
+  padding-top: 20px;
+}
+section.songs h4:last-of-type {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 0px;
+}
+section.songs p {
+  font-family: $font-cardo;
+  letter-spacing: 6px;
+  font-size: 12px;
+  line-height: 30px;
+}
+section.songs p:last-of-type {
+  font-size: 18px;
+  text-transform: none;
+  font-variant: small-caps;
+  line-height: 20px;
+  padding-top: 10px;
+}
+section.songs h5 {
+  font-family: $font-krona;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 8px;
+}

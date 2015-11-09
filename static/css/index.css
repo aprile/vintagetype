@@ -21,7 +21,7 @@ body h4,
 body h5,
 body h6 {
   margin: 0px;
-  font-weight: normal;
+  font-family: "Raleway", sans-serif;
 }
 body h1 {
   font-size: 56px;
@@ -44,18 +44,150 @@ body h6 {
 section.furniture {
   background-color: #ddb660;
 }
-section.furniture h1,
-section.furniture h2 {
-  font-family: "AvantGardeGothicITCW01Bd", sans-serif;
+section.furniture h2,
+section.furniture h3,
+section.furniture h4 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 900;
+}
+section.furniture .script {
+  font-family: "Sacramento", cursive;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+}
+section.furniture h3 {
+  line-height: 54px;
+}
+section.furniture h4 {
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 34px;
+}
+section.furniture h4:last-of-type {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
 }
 section.songs {
   background-color: #ece1c6;
+  text-transform: uppercase;
+}
+section.songs h2 {
+  font-family: "Oswald", sans-serif;
+  line-height: 50px;
+}
+section.songs h4 {
+  font-weight: 900;
+  letter-spacing: 4px;
+  padding-top: 20px;
+}
+section.songs h4:last-of-type {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 0px;
+}
+section.songs p {
+  font-family: "Cardo", serif;
+  letter-spacing: 6px;
+  font-size: 12px;
+  line-height: 30px;
+}
+section.songs p:last-of-type {
+  font-size: 18px;
+  text-transform: none;
+  font-variant: small-caps;
+  line-height: 20px;
+  padding-top: 10px;
+}
+section.songs h5 {
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 8px;
 }
 section.fish {
   background-color: #80a89c;
+  text-transform: uppercase;
+}
+section.fish h1 {
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  position: relative;
+  left: -90px;
+}
+section.fish h3 {
+  font-size: 16px;
+  letter-spacing: 6px;
+}
+section.fish h3:first-of-type {
+  position: relative;
+  top: -80px;
+}
+section.fish h3:last-of-type {
+  padding-top: 15px;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+section.fish h4 {
+  font-family: "Krona One", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+section.fish h4:first-of-type {
+  position: relative;
+  left: -90px;
+  letter-spacing: 8px;
+}
+section.fish h4:last-of-type {
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+section.fish h6 {
+  letter-spacing: 4px;
+  line-height: 20px;
+}
+section.fish h6:first-of-type {
+  position: relative;
+  left: 100px;
+  top: -90px;
 }
 section.kernel {
   background-color: #d42c2c;
+  text-transform: uppercase;
+}
+section.kernel h2 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+}
+section.kernel h3 {
+  font-weight: 800;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+section.kernel h3:last-of-type {
+  padding-top: 20px;
+  font-weight: 900;
+}
+section.kernel .script {
+  font-family: "Herr Von Muellerhoff", cursive;
+  text-transform: none;
+  font-size: 55px;
+  line-height: 40px;
+  padding-top: 15px;
+}
+section.kernel .script span {
+  position: relative;
+  left: -12px;
 }
 body {
   background-color: #333;

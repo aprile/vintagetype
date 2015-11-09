@@ -1,0 +1,48 @@
+section.fish {
+  background-color: $turquoise;
+  text-transform: uppercase;
+}
+section.fish h1 {
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  position: relative;
+  left: -90px;
+}
+section.fish h3 {
+  font-size: 16px;
+  letter-spacing: 6px;
+}
+section.fish h3:first-of-type {
+  position: relative;
+  top: -80px;
+}
+section.fish h3:last-of-type {
+  padding-top: 15px;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+section.fish h4 {
+  font-family: $font-krona;
+  font-size: 14px;
+  font-weight: normal;
+}
+section.fish h4:first-of-type {
+  position: relative;
+  left: -90px;
+  letter-spacing: 8px;
+}
+section.fish h4:last-of-type {
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+section.fish h6 {
+  letter-spacing: 4px;
+  line-height: 20px;
+}
+section.fish h6:first-of-type {
+  position: relative;
+  left: 100px;
+  top: -90px;
+}

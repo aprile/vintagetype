@@ -1,0 +1,33 @@
+section.furniture {
+  background-color: $mustard;
+}
+section.furniture h2,
+section.furniture h3,
+section.furniture h4 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 900;
+}
+section.furniture .script {
+  font-family: $font-sacramento;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+}
+section.furniture h3 {
+  line-height: 54px;
+}
+section.furniture h4 {
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 34px;
+}
+section.furniture h4:last-of-type {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}

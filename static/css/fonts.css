@@ -1,0 +1,43 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "kern=1";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  color: $gray;
+}
+body p {
+  font-family: $font-cardo;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin: 0px;
+  font-family: $font-raleway;
+}
+body h1 {
+  font-size: 56px;
+}
+body h2 {
+  font-size: 46px;
+}
+body h3 {
+  font-size: 36px;
+}
+body h4 {
+  font-size: 26px;
+}
+body h5 {
+  font-size: 16px;
+}
+body h6 {
+  font-size: 12px;
+}
