@@ -180,14 +180,92 @@ section.kernel h3:last-of-type {
 }
 section.kernel .script {
   font-family: "Herr Von Muellerhoff", cursive;
-  text-transform: none;
   font-size: 55px;
+  font-weight: normal;
+  text-transform: none;
   line-height: 40px;
   padding-top: 15px;
 }
 section.kernel .script span {
   position: relative;
   left: -12px;
+}
+section.navy {
+  background-color: #ebd1b7;
+  text-transform: uppercase;
+}
+section.navy p.first {
+  text-transform: none;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 4px;
+  line-height: 0px;
+}
+section.navy p:not(.first) {
+  text-transform: none;
+  position: relative;
+  top: -60px;
+  font-size: 28px;
+  line-height: 0px;
+  font-style: italic;
+}
+section.navy p:not(.first) span {
+  text-transform: uppercase;
+  font-style: normal;
+}
+section.navy p:last-of-type {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-style: normal;
+}
+section.navy h1 {
+  font-weight: 900;
+  letter-spacing: 4px;
+  position: relative;
+  left: -46px;
+  padding-bottom: 10px;
+  top: -10px;
+}
+section.navy h2.script {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 70px;
+  line-height: 70px;
+}
+section.navy h3 {
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 3px;
+  position: relative;
+  top: -70px;
+  left: 90px;
+}
+section.navy h4 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  top: -20px;
+}
+section.navy h5 {
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  letter-spacing: 3px;
+  position: relative;
+  top: -36px;
+  line-height: 16px;
+}
+section.navy h5:first-of-type {
+  position: relative;
+  top: -10px;
+}
+section.navy hr {
+  position: relative;
+  top: -42px;
 }
 body {
   background-color: #333;
@@ -203,6 +281,12 @@ body nav .infolink {
 }
 body nav .infolink:hover {
   opacity: 1;
+}
+body hr {
+  border: 0px;
+  border-bottom: 1px solid #000;
+  width: 75px;
+  margin-bottom: 20px;
 }
 section {
   width: 100%;
