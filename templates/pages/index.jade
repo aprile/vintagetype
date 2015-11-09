@@ -3,11 +3,19 @@ html
 
   head
     title Vintage Type
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-68028521-2', 'auto');
+      ga('send', 'pageview');    
     
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Sacramento|Oswald:700|Krona+One|Cardo:400,700,400italic|Raleway:800,900,700" 
     type="text/css")     
     link(rel="stylesheet" href="./css/index.css" type="text/css")
     link(rel="stylesheet" href="./css/reset.css" type="text/css")
+
   body.index
     nav
       a.infolink(href="https://github.com/aprileelcich/vintagetype/blob/gh-pages/README.md")
