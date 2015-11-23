@@ -1,0 +1,66 @@
+section.cuddle {
+  background-color: $paper;
+  position: relative;
+}
+section.cuddle h1 {
+  display: inline-block;
+  position: relative;
+  color: $rose;
+  font-family: $font-krona;
+  font-size: 80px;
+  font-weight: normal;
+  line-height: 0px;
+  opacity: 0.8;
+}
+section.cuddle h1.dot1,
+section.cuddle h1.dot2 {
+  font-family: $font-cardo;
+  top: -26px;
+}
+section.cuddle h1:first-of-type,
+section.cuddle h1:last-of-type {
+  font-family: $font-oswald;
+  font-weight: normal;
+  font-size: 150px;
+}
+section.cuddle h1:first-of-type {
+  top: 70px;
+  left: -10px;
+}
+section.cuddle h1:last-of-type {
+  top: 70px;
+  left: 10px;
+}
+section.cuddle h2 {
+  font-family: $font-oswald;
+  font-weight: normal;
+  line-height: 56px;
+}
+section.cuddle p {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 10px;
+}
+section.cuddle p:first-of-type {
+  color: $rose;
+  padding-left: 10px;
+}
+section.cuddle h3 {
+  font-family: $font-krona;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 6px;
+  position: relative;
+  z-index: 100;
+  left: 8px;
+  top: -8px;
+}
+section.cuddle h4 {
+  font-family: $font-krona;
+  font-weight: normal;
+  font-size: 12px;
+  position: relative;
+  left: -180px;
+  top: 0px;
+}
