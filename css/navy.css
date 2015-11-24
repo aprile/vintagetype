@@ -50,7 +50,13 @@ section.navy h3 {
   letter-spacing: 3px;
   position: relative;
   top: -70px;
-  left: 90px;
+  left: 115px;
+  display: inline-block;
+}
+section.navy h3:last-of-type {
+  position: relative;
+  top: -50px;
+  left: 45px;
 }
 section.navy h4 {
   font-size: 20px;
