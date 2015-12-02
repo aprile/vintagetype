@@ -41,6 +41,109 @@ body h5 {
 body h6 {
   font-size: 12px;
 }
+section.mississippi {
+  background-color: #ece1c6;
+}
+section.mississippi h1 {
+  font-family: "Oswald", sans-serif;
+  font-variant: small-caps;
+  font-size: 90px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 70px;
+}
+section.mississippi h1:first-letter {
+  font-weight: normal;
+  font-size: 106px;
+  vertical-align: middle;
+}
+section.mississippi h1.railway {
+  position: relative;
+  font-size: 60px;
+  left: 40px;
+}
+section.mississippi h1.railway:first-letter {
+  font-size: 74px;
+}
+section.mississippi h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 4px;
+  display: inline;
+}
+section.mississippi h2.angled {
+  padding-right: 10px;
+  font-size: 24px;
+}
+section.mississippi h2.angled span {
+  position: relative;
+  top: -4px;
+}
+section.mississippi h2.angled .a {
+  vertical-align: sub;
+}
+section.mississippi h2.angled .n {
+  vertical-align: text-bottom;
+}
+section.mississippi h2.angled .d {
+  vertical-align: super;
+}
+section.mississippi h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 3px;
+  position: relative;
+  left: 50px;
+  top: 6px;
+}
+section.mississippi h4 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+section.mississippi h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+section.mississippi .col1,
+section.mississippi .col2 {
+  line-height: 10px;
+  display: inline-block;
+  margin-top: 30px;
+}
+section.mississippi .col1 h5,
+section.mississippi .col2 h5 {
+  font-size: 9px;
+  line-height: 9px;
+  padding-top: 10px;
+}
+section.mississippi .col1 p,
+section.mississippi .col2 p {
+  font-size: 10px;
+}
+section.mississippi .col1 p:last-of-type,
+section.mississippi .col2 p:last-of-type {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+section.mississippi .col1 {
+  padding-right: 20px;
+  border-right: 1px solid #333;
+}
+section.mississippi .col2 {
+  padding-left: 20px;
+}
 section.blazing {
   background-color: #afc3c6;
 }

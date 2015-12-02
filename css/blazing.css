@@ -1,0 +1,71 @@
+section.blazing {
+  background-color: $cornflower;
+}
+section.blazing p {
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  left: -100px;
+}
+section.blazing p.frac1,
+section.blazing p.frac2 {
+  font-size: 20px;
+}
+section.blazing p.frac1 {
+  border-bottom: 1px solid #000;
+  top: -20px;
+}
+section.blazing p.frac2 {
+  top: 10px;
+  left: -121px;
+}
+section.blazing p:last-of-type {
+  left: 100px;
+}
+section.blazing h1.script {
+  font-family: $font-herr;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 80px;
+  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform-origin: 0;
+  transform: translate(100px) rotate(-10deg);
+  transform-origin: 350px 700px;
+}
+section.blazing h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 6px;
+  padding-bottom: 40px;
+  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform-origin: 0;
+  transform: translate(100px) rotate(-10deg);
+  transform-origin: 260px 20px;
+}
+section.blazing h3 {
+  font-family: $font-oswald;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 26px;
+}
+section.blazing h4 {
+  font-family: $font-oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+section.blazing h5 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+section.blazing h5:last-child {
+  letter-spacing: 1px;
+}
