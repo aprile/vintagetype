@@ -1,0 +1,60 @@
+section.crax {
+  background-color: $blush;
+  text-transform: uppercase;
+}
+section.crax p {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  left: -175px;
+  top: 50px;
+}
+section.crax h1 {
+  font-family: $font-oswald;
+  color: $red;
+  font-weight: bold;
+  font-size: 65px;
+  letter-spacing: 8px;
+  margin: 10px;
+  position: relative;
+  left: 10px;
+}
+section.crax .skew-left {
+  -webkit-transform: skewY(-15deg) skewX(5deg);
+  -ms-transform: skewY(-15deg) skewX(5deg);
+  transform: skewY(-15deg) skewX(5deg);
+  display: inline-block;
+  padding-right: 10px;
+}
+section.crax .skew-right {
+  -webkit-transform: skewY(15deg) skewX(-5deg);
+  -ms-transform: skewY(15deg) skewX(-5deg);
+  transform: skewY(15deg) skewX(-5deg);
+  display: inline-block;
+}
+section.crax h2 {
+  position: relative;
+  top: 70px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+section.crax h2:last-of-type {
+  font-size: 18px;
+}
+section.crax h3 {
+  font-family: $font-krona;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 8px;
+  line-height: 18px;
+}
+section.crax h4 {
+  font-family: $font-oswald;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+}
