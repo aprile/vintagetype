@@ -41,6 +41,146 @@ body h5 {
 body h6 {
   font-size: 12px;
 }
+section.jello {
+  background-color: #ebd1b7;
+  text-transform: uppercase;
+  color: #363f59;
+}
+section.jello p {
+  font-family: "Krona One", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  -webkit-transform: translate(-100px) rotate(-20deg);
+  -webkit-transform-origin: 0px;
+  transform: translate(-100px) rotate(-20deg);
+  transform-origin: 0px 0px;
+  position: relative;
+}
+section.jello p.one {
+  top: 115px;
+}
+section.jello p.two {
+  left: 110px;
+  top: 90px;
+}
+section.jello p.three {
+  left: 220px;
+  top: 60px;
+}
+section.jello h1 {
+  color: #d42c2c;
+  font-size: 120px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  line-height: 120px;
+}
+section.jello h1:first-letter {
+  font-size: 140px;
+}
+section.jello h2 {
+  font-size: 14px;
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+section.jello h2.strawberry {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #d42c2c;
+  border-bottom: 2px solid #d42c2c;
+  display: inline-block;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-bottom: 20px;
+}
+section.jello h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: 290px;
+  left: 20px;
+}
+section.jello h3:last-of-type {
+  left: 400px;
+}
+section.jello h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+}
+section.jello h4.smallcaps {
+  font-variant: small-caps;
+  text-transform: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+section.jello h5 {
+  font-family: "Krona One", sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: #d42c2c;
+}
+section.ellams {
+  background-color: #5a763d;
+  text-transform: uppercase;
+}
+section.ellams p {
+  text-transform: none;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+section.ellams p:last-of-type {
+  font-size: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+section.ellams h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 6px;
+  font-size: 70px;
+}
+section.ellams h2 {
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+section.ellams h2:first-letter {
+  font-weight: 200;
+  font-size: 36px;
+}
+section.ellams h3 {
+  position: absolute;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 6px;
+}
+section.ellams h3:first-of-type {
+  -webkit-transform: translate(50px) rotate(-90deg);
+  -webkit-transform-origin: 0;
+  transform: translate(50px) rotate(-90deg);
+  transform-origin: 0;
+}
+section.ellams h3:last-of-type {
+  -webkit-transform: translate(250px) rotate(90deg);
+  -webkit-transform-origin: 200px;
+  transform: translate(250px) rotate(90deg);
+  transform-origin: 200px;
+}
+section.ellams h4 {
+  letter-spacing: 5px;
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
 section.swallows {
   background-color: #d0a960;
   text-transform: uppercase;
