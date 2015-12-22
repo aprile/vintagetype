@@ -41,6 +41,74 @@ body h5 {
 body h6 {
   font-size: 12px;
 }
+section.combinade {
+  background-color: #243f68;
+  color: #ebd1b7;
+}
+section.combinade h1 {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 120px;
+  font-weight: normal;
+  border-bottom: 6px solid #ebd1b7;
+  display: inline-block;
+  line-height: 80px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+section.combinade h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
+  line-height: 10px;
+}
+section.combinade h3 {
+  font-family: "Krona One", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+section.combinade h4 {
+  font-family: "Krona One", sans-serif;
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: absolute;
+}
+section.combinade .tl {
+  -webkit-transform: translate(0px) rotate(-25deg);
+  -webkit-transform-origin: 0;
+  transform: translate(0px) rotate(-25deg);
+  transform-origin: 96px 110px;
+}
+section.combinade .tr {
+  -webkit-transform: translate(0px) rotate(25deg);
+  -webkit-transform-origin: 0;
+  transform: translate(0px) rotate(25deg);
+  transform-origin: 305px 530px;
+}
+section.combinade .bl {
+  font-size: 10px;
+  letter-spacing: 3px;
+  -webkit-transform: translate(0px) rotate(25deg);
+  -webkit-transform-origin: 0;
+  transform: translate(0px) rotate(25deg);
+  transform-origin: 100px -50px;
+}
+section.combinade .br {
+  font-size: 10px;
+  letter-spacing: 3px;
+  -webkit-transform: translate(0px) rotate(-25deg);
+  -webkit-transform-origin: 0;
+  transform: translate(0px) rotate(-25deg);
+  transform-origin: 290px -530px;
+}
 section.jello {
   background-color: #ebd1b7;
   text-transform: uppercase;
@@ -1123,7 +1191,7 @@ section.blazing h1.script {
   font-weight: normal;
   font-size: 90px;
   line-height: 80px;
-  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform: translate(100px) rotate(-10deg);
   -webkit-transform-origin: 0;
   transform: translate(100px) rotate(-10deg);
   transform-origin: 350px 700px;
@@ -1134,7 +1202,7 @@ section.blazing h2 {
   font-size: 24px;
   letter-spacing: 6px;
   padding-bottom: 40px;
-  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform: translate(100px) rotate(-10deg);
   -webkit-transform-origin: 0;
   transform: translate(100px) rotate(-10deg);
   transform-origin: 260px 20px;

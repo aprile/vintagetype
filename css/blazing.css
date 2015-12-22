@@ -28,7 +28,7 @@ section.blazing h1.script {
   font-weight: normal;
   font-size: 90px;
   line-height: 80px;
-  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform: translate(100px) rotate(-10deg);
   -webkit-transform-origin: 0;
   transform: translate(100px) rotate(-10deg);
   transform-origin: 350px 700px;
@@ -39,7 +39,7 @@ section.blazing h2 {
   font-size: 24px;
   letter-spacing: 6px;
   padding-bottom: 40px;
-  -webkit-transform: translate(100px) rotate(-20deg);
+  -webkit-transform: translate(100px) rotate(-10deg);
   -webkit-transform-origin: 0;
   transform: translate(100px) rotate(-10deg);
   transform-origin: 260px 20px;
